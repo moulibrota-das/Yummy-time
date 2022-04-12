@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import style from "../styles/popular.module.css";
 
 function Popular() {
   const [recipes, setRecipes] = useState([]);
