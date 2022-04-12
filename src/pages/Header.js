@@ -13,23 +13,23 @@ function Header() {
   return (
     <div>
       <header className="text-gray-600 body-font mx-4">
-        <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
-          <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+        <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+          <nav className="flex lg:w-2/5 flex-around items-center text-base md:ml-auto">
             <Link
               to="/search/breakfast"
-              className="mr-6 hover:text-gray-900 cursor-pointer"
+              className="mr-5 hover:text-gray-900 cursor-pointer"
             >
               Breakfast
             </Link>
             <Link
               to="/search/lunch"
-              className="mr-6 hover:text-gray-900 cursor-pointer"
+              className="mr-5 hover:text-gray-900 cursor-pointer"
             >
               Lunch
             </Link>
             <Link
               to="/search/dinner"
-              className="mr-6 hover:text-gray-900 cursor-pointer"
+              className="mr-5 hover:text-gray-900 cursor-pointer"
             >
               Dinner
             </Link>
