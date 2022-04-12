@@ -17,19 +17,19 @@ function Header() {
           <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
             <Link
               to="/search/breakfast"
-              className="mr-8 hover:text-gray-900 cursor-pointer"
+              className="mr-6 hover:text-gray-900 cursor-pointer"
             >
               Breakfast
             </Link>
             <Link
               to="/search/lunch"
-              className="mr-8 hover:text-gray-900 cursor-pointer"
+              className="mr-6 hover:text-gray-900 cursor-pointer"
             >
               Lunch
             </Link>
             <Link
               to="/search/dinner"
-              className="mr-8 hover:text-gray-900 cursor-pointer"
+              className="mr-6 hover:text-gray-900 cursor-pointer"
             >
               Dinner
             </Link>
